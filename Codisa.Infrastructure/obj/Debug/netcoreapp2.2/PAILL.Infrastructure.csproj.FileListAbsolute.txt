@@ -1,0 +1,14 @@
+C:\Users\trecsalaza\Desktop\PAIL\PAILL\Codisa.Infrastructure\bin\Debug\netcoreapp2.2\PAILL.Infrastructure.deps.json
+C:\Users\trecsalaza\Desktop\PAIL\PAILL\Codisa.Infrastructure\bin\Debug\netcoreapp2.2\PAILL.Infrastructure.dll
+C:\Users\trecsalaza\Desktop\PAIL\PAILL\Codisa.Infrastructure\bin\Debug\netcoreapp2.2\PAILL.Infrastructure.pdb
+C:\Users\trecsalaza\Desktop\PAIL\PAILL\Codisa.Infrastructure\bin\Debug\netcoreapp2.2\PAILL.Core.dll
+C:\Users\trecsalaza\Desktop\PAIL\PAILL\Codisa.Infrastructure\bin\Debug\netcoreapp2.2\System.Data.SqlClient.dll
+C:\Users\trecsalaza\Desktop\PAIL\PAILL\Codisa.Infrastructure\bin\Debug\netcoreapp2.2\PAILL.Core.pdb
+C:\Users\trecsalaza\Desktop\PAIL\PAILL\Codisa.Infrastructure\bin\Debug\netcoreapp2.2\System.Data.SqlClient.xml
+C:\Users\trecsalaza\Desktop\PAIL\PAILL\Codisa.Infrastructure\obj\Debug\netcoreapp2.2\PAILL.Infrastructure.csprojAssemblyReference.cache
+C:\Users\trecsalaza\Desktop\PAIL\PAILL\Codisa.Infrastructure\obj\Debug\netcoreapp2.2\PAILL.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\trecsalaza\Desktop\PAIL\PAILL\Codisa.Infrastructure\obj\Debug\netcoreapp2.2\PAILL.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\trecsalaza\Desktop\PAIL\PAILL\Codisa.Infrastructure\obj\Debug\netcoreapp2.2\PAILL.Infrastructure.AssemblyInfo.cs
+C:\Users\trecsalaza\Desktop\PAIL\PAILL\Codisa.Infrastructure\obj\Debug\netcoreapp2.2\PAILL.Infrastructure.csproj.CopyComplete
+C:\Users\trecsalaza\Desktop\PAIL\PAILL\Codisa.Infrastructure\obj\Debug\netcoreapp2.2\PAILL.Infrastructure.dll
+C:\Users\trecsalaza\Desktop\PAIL\PAILL\Codisa.Infrastructure\obj\Debug\netcoreapp2.2\PAILL.Infrastructure.pdb

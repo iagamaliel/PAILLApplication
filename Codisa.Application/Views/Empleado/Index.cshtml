@@ -1,0 +1,72 @@
+﻿@model IEnumerable<Codisa.Infrastructure.ParamsDTO.EmpleadoDto>
+<p>
+    @Html.ActionLink("Nuevo Empleado", "NewEmployee")
+</p>
+
+<input type="text" class="form-control form-control-sm m-b-xs" id="filter"
+       placeholder="Filter ...">
+<table class="footable table table-stripped" id="table" data-page-size="5" data-filter=#filter>
+    <thead>
+        <tr>
+            <th>
+                Nombre
+            </th>
+            <th>
+                Cedula
+            </th>
+            <th>
+                Correo
+            </th>
+            <th>
+                Área de trabajo
+            </th>
+            <th>
+                Fecha Nacimiento
+            </th>
+            <th>
+                Fecha ingreso
+            </th>
+            <th>
+                Acciones
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreCompleto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cedula)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Correo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreArea)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaNacimientoFormat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaIngresoFormat)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "EditEmployee", item) |
+                @Html.ActionLink("Eliminar", "DeleteEmployee", new { id = item.IdEmpleado }) |
+                @Html.ActionLink("Ver", "DetailEmployee", item) |
+                @Html.ActionLink("Habilidades", "DetailSkill", new { id = item.IdEmpleado, nombre = item.NombreCompleto })
+            </td>
+        </tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="7">
+                <ul class="pagination float-right"></ul>
+            </td>
+        </tr>
+    </tfoot>
+</table>

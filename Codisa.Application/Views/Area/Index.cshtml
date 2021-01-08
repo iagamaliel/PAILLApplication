@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Codisa.Infrastructure.ParamsDTO.AreaDto>
+<p>
+    @Html.ActionLink("Nueva Area", "NewArea")
+</p>
+
+<input type="text" class="form-control form-control-sm m-b-xs" id="filter"
+       placeholder="Filter ...">
+<table class="footable table table-stripped" id="table" data-page-size="5" data-filter=#filter>
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descripcion)
+            </th>
+            <th>
+                Acciones
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Descripcion)
+                </td>
+                <td>
+                    @Html.ActionLink("Editar", "EditArea", item) |
+                    @Html.ActionLink("Eliminar", "DeleteArea", new { id = item.IdArea })
+                </td>
+            </tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="7">
+                <ul class="pagination float-right"></ul>
+            </td>
+        </tr>
+    </tfoot>
+</table>
+

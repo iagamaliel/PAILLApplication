@@ -1,0 +1,9 @@
+C:\Users\trecsalaza\Desktop\PAIL\PAILL\Codisa.Core\bin\Debug\netcoreapp2.2\PAILL.Core.deps.json
+C:\Users\trecsalaza\Desktop\PAIL\PAILL\Codisa.Core\bin\Debug\netcoreapp2.2\PAILL.Core.dll
+C:\Users\trecsalaza\Desktop\PAIL\PAILL\Codisa.Core\bin\Debug\netcoreapp2.2\PAILL.Core.pdb
+C:\Users\trecsalaza\Desktop\PAIL\PAILL\Codisa.Core\obj\Debug\netcoreapp2.2\PAILL.Core.csprojAssemblyReference.cache
+C:\Users\trecsalaza\Desktop\PAIL\PAILL\Codisa.Core\obj\Debug\netcoreapp2.2\PAILL.Core.csproj.CoreCompileInputs.cache
+C:\Users\trecsalaza\Desktop\PAIL\PAILL\Codisa.Core\obj\Debug\netcoreapp2.2\PAILL.Core.AssemblyInfoInputs.cache
+C:\Users\trecsalaza\Desktop\PAIL\PAILL\Codisa.Core\obj\Debug\netcoreapp2.2\PAILL.Core.AssemblyInfo.cs
+C:\Users\trecsalaza\Desktop\PAIL\PAILL\Codisa.Core\obj\Debug\netcoreapp2.2\PAILL.Core.dll
+C:\Users\trecsalaza\Desktop\PAIL\PAILL\Codisa.Core\obj\Debug\netcoreapp2.2\PAILL.Core.pdb

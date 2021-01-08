@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Codisa.Infrastructure.ParamsDTO.EmpleadoDto>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Jerarquia</h1>
+
+<div id="myjstree">
+    <ul>
+        <li>
+            Organizacion
+            <ul>
+                <li>
+                    Joaquin Vargas
+                    <ul>
+                        @foreach (var item in (IEnumerable<Codisa.Infrastructure.ParamsDTO.EmpleadoDto>)ViewData["EmpleadosA"])
+                        {
+                            <li>@Html.DisplayFor(modelItem => item.NombreCompleto)</li>
+                        }
+                    </ul>
+                </li>
+                <li>
+                    Anthony Fernandez
+                    <ul>
+                        @foreach (var item in (IEnumerable<Codisa.Infrastructure.ParamsDTO.EmpleadoDto>)ViewData["EmpleadosB"])
+                        {
+                            <li>@Html.DisplayFor(modelItem => item.NombreCompleto)</li>
+                        }
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
